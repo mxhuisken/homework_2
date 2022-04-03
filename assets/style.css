@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(223, 233, 215);
+    color: rgb(101, 128, 108);
+    border-radius: 5px;
+}
+
+img {
+   max-width: 20%;
+   max-height: 20%;
+   border-radius: 5px;
+   float: right;
+}
+
+.nav li { 
+    display: inline-block;
+}
+
+.sectiontitle {
+    background-color: rgb(107, 202, 178);
+    color: darkcyan;
+    line-height: 20px;
+    width: 110px;
+    border-radius: 5px;
+}
+
+.sectionp {
+    width: 400px;
+    color: darkcyan;
+    background-color: rgb(107, 202, 178);
+    border-radius: 5px;
+}
+
+.footer {
+    color:rgb(112, 158, 167);
+    background-color: rgb(223, 233, 215);
+    text-align: center;
+    border-radius: 5px;
+}
