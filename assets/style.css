@@ -1,36 +1,89 @@
-header {
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    background-color: rgb(223, 233, 215);
-    color: rgb(101, 128, 108);
-    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;   
+    background-color: darkcyan;
+    color: aliceblue;
 }
 
-img {
-   max-width: 20%;
-   max-height: 20%;
-   border-radius: 5px;
-   float: right;
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
 }
 
-.nav li { 
-    display: inline-block;
+.navcontent {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
 }
 
-.sectiontitle {
-    background-color: rgb(107, 202, 178);
+.navcontent a {
+    color: aliceblue;
+    letter-spacing: 2px;
+    border: solid;
+    border-color: aliceblue;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.navcontent li {
+    list-style: none;
+}
+
+.aboutme {
+    background-color: rgb(216, 247, 242);
     color: darkcyan;
-    line-height: 20px;
-    width: 110px;
-    border-radius: 5px;
 }
 
-.sectionp {
-    width: 400px;
-    color: darkcyan;
-    background-color: rgb(107, 202, 178);
-    border-radius: 5px;
+.aboutme img{
+    display: flex;
+    max-height: 10%;
+    max-width: 10%;
+    border-radius: 100px;
+    float: right;
+}
+
+.aboutme p{
+    padding: 10px;
+}
+
+.aboutme h3{
+    padding: 10px;
+}
+
+.work h3{
+    padding: 10px;
+}
+
+.workone img{
+    display: flex;
+    max-height: 15%;
+    max-width: 15%;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.worktwo img{
+    display: flex;
+    max-width: 16%;
+    max-height: 16%;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.work{
+    background-color: pink;
 }
 
 .footer {
