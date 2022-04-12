@@ -11,7 +11,7 @@ nav{
     align-items: center;
     min-height: 8vh;   
     background-color: darkcyan;
-    color: aliceblue;
+    color: white;
 }
 
 .logo{
@@ -42,8 +42,8 @@ nav{
 }
 
 .aboutme {
-    background-color: rgb(216, 247, 242);
-    color: darkcyan;
+    background-color:aliceblue;
+    color: rgb(122, 184, 168);
 }
 
 .aboutme img{
@@ -74,16 +74,62 @@ nav{
     padding: 15px;
 }
 
-.worktwo img{
-    display: flex;
+.workone:hover img{
+    transform: sale(1.5);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     max-width: 16%;
     max-height: 16%;
+}
+
+.worktwo img{
+    display: flex;
+    max-width: 15%;
+    max-height: 15%;
     border-radius: 100%;
     padding: 15px;
 }
 
+.worktwo:hover img{
+    transform: scale(1.5);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 11%;
+    max-height: 11%;
+}
+
 .work{
     background-color: pink;
+}
+
+.tunatxt{
+    color: darkmagenta;
+    display: inline-flex;
+
+}
+
+.cowtxt{
+    color: darkmagenta;
+
+}
+.contact {
+    text-align: center;
+    background-color: rgb(174, 201, 174);
+    color:rgb(96, 168, 106);
+    padding: 15px;
+    letter-spacing: 3px;
+}
+
+h5{
+    display: block;
+    flex-direction: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contactinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .footer {
