@@ -6,8 +6,8 @@ Combining knowledge from last 2 weeks of class to deploy first portfolio using H
 # Site Preview 
 
 # GitHub Links 
-Repository: 
-Deployed: 
+Repository: https://github.com/mxhuisken/homework_2
+Deployed: https://mxhuisken.github.io/homework_2/
 
 # Requirements 
 - Open with name, photo, links to sections throughout portfolio 
