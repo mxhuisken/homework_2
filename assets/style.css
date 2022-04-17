@@ -44,6 +44,7 @@ nav{
 .aboutme {
     background-color:aliceblue;
     color: rgb(122, 184, 168);
+    padding: 50px;
 }
 
 .aboutme img{
@@ -98,12 +99,12 @@ nav{
 
 .work{
     background-color: pink;
+    padding: 50px;
 }
 
 .tunatxt{
     color: darkmagenta;
-    display: inline-flex;
-
+    display: flex;
 }
 
 .cowtxt{
@@ -114,7 +115,7 @@ nav{
     text-align: center;
     background-color: rgb(174, 201, 174);
     color:rgb(96, 168, 106);
-    padding: 15px;
+    padding: 35px;
     letter-spacing: 3px;
 }
 
@@ -137,4 +138,24 @@ h5{
     background-color: rgb(223, 233, 215);
     text-align: center;
     border-radius: 5px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .aboutme {
+        background-color: bisque;
+        color: orange;
+    }
+
+    .work{
+        background-color: blueviolet;
+        color: hotpink;
+    }
+
+    .contact{
+        background-color: black;
+        color: aliceblue;
+    }
+    
 }
